@@ -1,7 +1,7 @@
 import os
 from groq import Groq
 from dotenv import load_dotenv
-from backend.prompt_templates import SYSTEM_PROMPT, USER_PROMPT_TEMPLATE
+from prompt_templates import SYSTEM_PROMPT, USER_PROMPT_TEMPLATE
 
 load_dotenv()
 
