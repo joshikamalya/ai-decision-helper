@@ -1,11 +1,7 @@
 import streamlit as st
-import sys
-import os
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-from backend.edge_case_handler import handle_edge_cases
-from backend.decision_engine import analyze_decision
+from edge_case_handler import handle_edge_cases
+from decision_engine import analyze_decision
 
 st.set_page_config(page_title="AI Decision Helper", layout="centered")
 
